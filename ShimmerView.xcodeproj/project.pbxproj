@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4A95228E73B57A694F93FCA /* libPods-ShimmerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A03EA6D180FE1E321EE3C567 /* libPods-ShimmerView.a */; };
+		5CF9F2BAE6AC1714C5FEE987 /* Pods_ShimmerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7AD312F2701235BDD40D986 /* Pods_ShimmerView.framework */; };
+		DD98E1641D2B6D3E0087497F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98E1631D2B6D3E0087497F /* ViewModel.swift */; };
+		DD98E1661D2B6D790087497F /* SimpleProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98E1651D2B6D790087497F /* SimpleProfile.swift */; };
+		DD98E1681D2B72490087497F /* PlaceholderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98E1671D2B72490087497F /* PlaceholderCell.swift */; };
+		DD98E16A1D2B72540087497F /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98E1691D2B72540087497F /* ProfileCell.swift */; };
+		DD98E16C1D2B728B0087497F /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD98E16B1D2B728B0087497F /* CellViewModel.swift */; };
 		DDC6538C1D2B6B5100FB207F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6538B1D2B6B5100FB207F /* AppDelegate.swift */; };
 		DDC6538E1D2B6B5100FB207F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6538D1D2B6B5100FB207F /* ViewController.swift */; };
 		DDC653911D2B6B5100FB207F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC6538F1D2B6B5100FB207F /* Main.storyboard */; };
@@ -27,7 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A03EA6D180FE1E321EE3C567 /* libPods-ShimmerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ShimmerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD98E1631D2B6D3E0087497F /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DD98E1651D2B6D790087497F /* SimpleProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleProfile.swift; sourceTree = "<group>"; };
+		DD98E1671D2B72490087497F /* PlaceholderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceholderCell.swift; sourceTree = "<group>"; };
+		DD98E1691D2B72540087497F /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		DD98E16B1D2B728B0087497F /* CellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
 		DDC653881D2B6B5100FB207F /* ShimmerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimmerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC6538B1D2B6B5100FB207F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDC6538D1D2B6B5100FB207F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +47,7 @@
 		DDC6539C1D2B6B5100FB207F /* ShimmerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShimmerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC653A01D2B6B5100FB207F /* ShimmerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerViewTests.swift; sourceTree = "<group>"; };
 		DDC653A21D2B6B5100FB207F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7AD312F2701235BDD40D986 /* Pods_ShimmerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShimmerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA37D469128C08B2C4C3104 /* Pods-ShimmerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShimmerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShimmerView/Pods-ShimmerView.debug.xcconfig"; sourceTree = "<group>"; };
 		F50295C994ED7F55DB66DF34 /* Pods-ShimmerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShimmerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShimmerView/Pods-ShimmerView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4A95228E73B57A694F93FCA /* libPods-ShimmerView.a in Frameworks */,
+				5CF9F2BAE6AC1714C5FEE987 /* Pods_ShimmerView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +74,7 @@
 		67E9F448C437327442A17930 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A03EA6D180FE1E321EE3C567 /* libPods-ShimmerView.a */,
+				E7AD312F2701235BDD40D986 /* Pods_ShimmerView.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -94,6 +104,11 @@
 			children = (
 				DDC6538B1D2B6B5100FB207F /* AppDelegate.swift */,
 				DDC6538D1D2B6B5100FB207F /* ViewController.swift */,
+				DD98E1631D2B6D3E0087497F /* ViewModel.swift */,
+				DD98E1651D2B6D790087497F /* SimpleProfile.swift */,
+				DD98E1671D2B72490087497F /* PlaceholderCell.swift */,
+				DD98E1691D2B72540087497F /* ProfileCell.swift */,
+				DD98E16B1D2B728B0087497F /* CellViewModel.swift */,
 				DDC6538F1D2B6B5100FB207F /* Main.storyboard */,
 				DDC653921D2B6B5100FB207F /* Assets.xcassets */,
 				DDC653941D2B6B5100FB207F /* LaunchScreen.storyboard */,
@@ -273,7 +288,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDC6538E1D2B6B5100FB207F /* ViewController.swift in Sources */,
+				DD98E1661D2B6D790087497F /* SimpleProfile.swift in Sources */,
+				DD98E1641D2B6D3E0087497F /* ViewModel.swift in Sources */,
+				DD98E16C1D2B728B0087497F /* CellViewModel.swift in Sources */,
+				DD98E16A1D2B72540087497F /* ProfileCell.swift in Sources */,
 				DDC6538C1D2B6B5100FB207F /* AppDelegate.swift in Sources */,
+				DD98E1681D2B72490087497F /* PlaceholderCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
