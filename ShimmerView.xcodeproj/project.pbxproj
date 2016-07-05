@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDC6538C1D2B6B5100FB207F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6538B1D2B6B5100FB207F /* AppDelegate.swift */; };
+		DDC6538E1D2B6B5100FB207F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6538D1D2B6B5100FB207F /* ViewController.swift */; };
+		DDC653911D2B6B5100FB207F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC6538F1D2B6B5100FB207F /* Main.storyboard */; };
+		DDC653931D2B6B5100FB207F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC653921D2B6B5100FB207F /* Assets.xcassets */; };
+		DDC653961D2B6B5100FB207F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC653941D2B6B5100FB207F /* LaunchScreen.storyboard */; };
+		DDC653A11D2B6B5100FB207F /* ShimmerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC653A01D2B6B5100FB207F /* ShimmerViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDC6539D1D2B6B5100FB207F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC653801D2B6B5100FB207F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDC653871D2B6B5100FB207F;
+			remoteInfo = ShimmerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDC653881D2B6B5100FB207F /* ShimmerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShimmerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC6538B1D2B6B5100FB207F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDC6538D1D2B6B5100FB207F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDC653901D2B6B5100FB207F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDC653921D2B6B5100FB207F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC653951D2B6B5100FB207F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDC653971D2B6B5100FB207F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC6539C1D2B6B5100FB207F /* ShimmerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShimmerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC653A01D2B6B5100FB207F /* ShimmerViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerViewTests.swift; sourceTree = "<group>"; };
+		DDC653A21D2B6B5100FB207F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC653851D2B6B5100FB207F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC653991D2B6B5100FB207F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDC6537F1D2B6B5100FB207F = {
+			isa = PBXGroup;
+			children = (
+				DDC6538A1D2B6B5100FB207F /* ShimmerView */,
+				DDC6539F1D2B6B5100FB207F /* ShimmerViewTests */,
+				DDC653891D2B6B5100FB207F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC653891D2B6B5100FB207F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC653881D2B6B5100FB207F /* ShimmerView.app */,
+				DDC6539C1D2B6B5100FB207F /* ShimmerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC6538A1D2B6B5100FB207F /* ShimmerView */ = {
+			isa = PBXGroup;
+			children = (
+				DDC6538B1D2B6B5100FB207F /* AppDelegate.swift */,
+				DDC6538D1D2B6B5100FB207F /* ViewController.swift */,
+				DDC6538F1D2B6B5100FB207F /* Main.storyboard */,
+				DDC653921D2B6B5100FB207F /* Assets.xcassets */,
+				DDC653941D2B6B5100FB207F /* LaunchScreen.storyboard */,
+				DDC653971D2B6B5100FB207F /* Info.plist */,
+			);
+			path = ShimmerView;
+			sourceTree = "<group>";
+		};
+		DDC6539F1D2B6B5100FB207F /* ShimmerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDC653A01D2B6B5100FB207F /* ShimmerViewTests.swift */,
+				DDC653A21D2B6B5100FB207F /* Info.plist */,
+			);
+			path = ShimmerViewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC653871D2B6B5100FB207F /* ShimmerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC653A51D2B6B5100FB207F /* Build configuration list for PBXNativeTarget "ShimmerView" */;
+			buildPhases = (
+				DDC653841D2B6B5100FB207F /* Sources */,
+				DDC653851D2B6B5100FB207F /* Frameworks */,
+				DDC653861D2B6B5100FB207F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShimmerView;
+			productName = ShimmerView;
+			productReference = DDC653881D2B6B5100FB207F /* ShimmerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDC6539B1D2B6B5100FB207F /* ShimmerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC653A81D2B6B5100FB207F /* Build configuration list for PBXNativeTarget "ShimmerViewTests" */;
+			buildPhases = (
+				DDC653981D2B6B5100FB207F /* Sources */,
+				DDC653991D2B6B5100FB207F /* Frameworks */,
+				DDC6539A1D2B6B5100FB207F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDC6539E1D2B6B5100FB207F /* PBXTargetDependency */,
+			);
+			name = ShimmerViewTests;
+			productName = ShimmerViewTests;
+			productReference = DDC6539C1D2B6B5100FB207F /* ShimmerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC653801D2B6B5100FB207F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kiattisak Anoochitarom";
+				TargetAttributes = {
+					DDC653871D2B6B5100FB207F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DDC6539B1D2B6B5100FB207F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DDC653871D2B6B5100FB207F;
+					};
+				};
+			};
+			buildConfigurationList = DDC653831D2B6B5100FB207F /* Build configuration list for PBXProject "ShimmerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC6537F1D2B6B5100FB207F;
+			productRefGroup = DDC653891D2B6B5100FB207F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC653871D2B6B5100FB207F /* ShimmerView */,
+				DDC6539B1D2B6B5100FB207F /* ShimmerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC653861D2B6B5100FB207F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC653961D2B6B5100FB207F /* LaunchScreen.storyboard in Resources */,
+				DDC653931D2B6B5100FB207F /* Assets.xcassets in Resources */,
+				DDC653911D2B6B5100FB207F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC6539A1D2B6B5100FB207F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC653841D2B6B5100FB207F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC6538E1D2B6B5100FB207F /* ViewController.swift in Sources */,
+				DDC6538C1D2B6B5100FB207F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC653981D2B6B5100FB207F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC653A11D2B6B5100FB207F /* ShimmerViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDC6539E1D2B6B5100FB207F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC653871D2B6B5100FB207F /* ShimmerView */;
+			targetProxy = DDC6539D1D2B6B5100FB207F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDC6538F1D2B6B5100FB207F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC653901D2B6B5100FB207F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDC653941D2B6B5100FB207F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC653951D2B6B5100FB207F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDC653A31D2B6B5100FB207F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDC653A41D2B6B5100FB207F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC653A61D2B6B5100FB207F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShimmerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macbaszii.ShimmerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDC653A71D2B6B5100FB207F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShimmerView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macbaszii.ShimmerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDC653A91D2B6B5100FB207F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShimmerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macbaszii.ShimmerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShimmerView.app/ShimmerView";
+			};
+			name = Debug;
+		};
+		DDC653AA1D2B6B5100FB207F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShimmerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.macbaszii.ShimmerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShimmerView.app/ShimmerView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC653831D2B6B5100FB207F /* Build configuration list for PBXProject "ShimmerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC653A31D2B6B5100FB207F /* Debug */,
+				DDC653A41D2B6B5100FB207F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC653A51D2B6B5100FB207F /* Build configuration list for PBXNativeTarget "ShimmerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC653A61D2B6B5100FB207F /* Debug */,
+				DDC653A71D2B6B5100FB207F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDC653A81D2B6B5100FB207F /* Build configuration list for PBXNativeTarget "ShimmerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC653A91D2B6B5100FB207F /* Debug */,
+				DDC653AA1D2B6B5100FB207F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDC653801D2B6B5100FB207F /* Project object */;
+}
